@@ -27,7 +27,7 @@ function isNull(){
 		<tr>
 			<td>验证码：</td>
 			<td><img src = "captcha.php" onclick = "this.src = 'captcha.php?id='+Math.random();" alt = "点击更换验证码">看不清？点击更换图片</img></td>
-			<td><input type = "text" name = "captcha" /></td>
+			<td><input type = "text" name = "verify_code" /></td>
 		</tr>
 		<tr>
 			<td><input type = "submit" value = "登录"></td>

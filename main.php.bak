@@ -2,7 +2,7 @@
 if(isset($_POST)){
 	session_start();
 
-	if(strcasecmp( $_POST['captcha'], $_SESSION['captcha']) <> 0){
+	if(strcasecmp( $_POST['verify_code'], $_SESSION['verify_code']) <> 0){
 		echo '验证码不正确';
 		exit();
 	}
